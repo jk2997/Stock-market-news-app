@@ -1,5 +1,6 @@
 package com.stocknews.app
 
+import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
@@ -81,9 +82,9 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(Intent.ACTION_VIEW, uri).apply {
             addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
         }
-        if (intent.resolveActivity(packageManager) != null) {
+        try {
             startActivity(intent)
-        } else {
+        } catch (_: ActivityNotFoundException) {
             Toast.makeText(this, R.string.error_no_browser, Toast.LENGTH_SHORT).show()
         }
     }
