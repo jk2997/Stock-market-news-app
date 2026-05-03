@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Stock Market News</string>
+    <string name="action_retry">Retry</string>
+    <string name="empty_no_articles">No articles available right now.</string>
+    <string name="empty_with_errors">Could not load: %1$s. Pull down to try again.</string>
+    <string name="error_partial_load">Some sources unavailable: %1$s</string>
+    <string name="error_no_browser">No browser installed to open this article.</string>
+</resources>

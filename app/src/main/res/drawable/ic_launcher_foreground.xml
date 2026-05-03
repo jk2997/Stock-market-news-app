@@ -1,0 +1,20 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Stylized upward chart bars -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,72 L42,72 L42,58 L30,58 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,72 L60,72 L60,46 L48,46 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M66,72 L78,72 L78,34 L66,34 Z" />
+    <!-- Trend arrow -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,52 L48,40 L60,46 L78,30 L72,30 L72,24 L84,24 L84,36 L78,36 L78,30 L60,42 L48,36 L30,48 Z" />
+</vector>
